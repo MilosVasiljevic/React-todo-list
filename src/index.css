@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #414140;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.cont {
+  padding: 30px;
+  max-width: 700px;
+  margin: 030px auto;
+  border: 1px solid #666;
+  border-radius: 15px;
+  background-color: #e5e4e4;
+}
+
+
+ul {
+  list-style-type: auto;
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+.input {
+  font-size: 20px;
+  padding: 9px 20px;
+  width: calc(100% - 209px);
+}
+
+.add {
+  background-color: #fdfdfd;
+  font-size: 20px;
+  padding: 5px;
+  height: 45px;
+  float: right;
+  width: 150px;
+  border: 0px;
+  box-shadow: 0px 0px 5px #555;
+  cursor: pointer;
+}
+
+label {
+  display: flex;
+  position: relative;
+  top: -4px;
+
+}
+
+.edit {
+  margin-left: auto ;
+  margin-right: 20px;
+}
+
+.edit , .delete , .save {
+  background-color: #fff;
+  border: 0px;
+  width: 80px;
+  font-size: 16px;
+  box-shadow: 0px 0px 8px #999;
+  cursor: pointer;
+  height: 27px;
+}
+
+.save {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+input[type="checkbox" i]  {   
+   width: 15px;
+  height: 15px;
+  position: relative;
+  top: 4px;
+  margin-right: 14px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.change {
+  font-size: 17px;
+  padding: 3px 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI'!improtant;
+
+}
